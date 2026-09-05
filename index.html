@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSL Myanmar | Season 4</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">MSL <span>MYANMAR</span></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#matches">Matches</a>
+    <a href="#standings">Standings</a>
+    <a href="#teams">Teams</a>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div>
+      <p class="eyebrow">MLBB ESPORTS</p>
+      <h1>MSL Myanmar<br><span>Season 4</span></h1>
+      <p class="subtitle">Follow matches, results, standings and teams in one simple place.</p>
+      <a class="button" href="#matches">View Matches</a>
+    </div>
+  </section>
+
+  <section id="matches" class="section">
+    <div class="section-title">
+      <div><p class="eyebrow">SCHEDULE</p><h2>Upcoming Matches</h2></div>
+    </div>
+    <div id="match-list" class="match-grid"></div>
+  </section>
+
+  <section id="standings" class="section">
+    <p class="eyebrow">REGULAR SEASON</p>
+    <h2>Standings</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Team</th><th>W</th><th>L</th><th>Pts</th></tr></thead>
+        <tbody id="standings-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="teams" class="section">
+    <p class="eyebrow">COMPETITORS</p>
+    <h2>Teams</h2>
+    <div id="team-list" class="team-grid"></div>
+  </section>
+</main>
+
+<footer>
+  <strong>MSL MYANMAR</strong>
+  <span>Fan-made esports website</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
